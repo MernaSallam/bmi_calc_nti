@@ -48,7 +48,7 @@ flutter_svg
 
 ## 👩‍💻 Developed and Designed By
  
- # Merna Sallam
+ ### Merna Sallam
 
 ---
 A few resources to get you started if this is your first Flutter project:
