@@ -1,3 +1,5 @@
+![Frame 4](https://github.com/user-attachments/assets/0744ab45-1657-48ec-a12e-e9156eca43cd)
+![Frame 4](https://github.com/user-attachments/assets/e5334026-248e-4572-b52d-d30dc8949dbf)
 # BMI Calculator App 🧮
 
 A simple and elegant Body Mass Index (BMI) calculator built with **Flutter**.  
