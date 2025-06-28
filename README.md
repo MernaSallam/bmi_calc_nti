@@ -14,6 +14,36 @@ This app allows users to input their weight, height, age, and gender, and calcul
 - 🎨 Clean and modern UI design.
 
 ---
+
+## 📁 Project Structure
+lib/
+├── main.dart
+└── features/
+    └── BMI_Calc/
+        ├── data/           # Models & API constants
+        ├── presentation/
+        │   ├── UI_Screens/ # Screens like Input & Result
+        │   ├── components/ # Reusable widgets (buttons, fields...)
+        │   └── controller/ # BLoC logic
+
+
+---
+
+## 📦 Packages Used
+
+flutter_bloc
+
+dio
+
+flutter_svg
+
+---
+
+## 👩‍💻 Developed and Designed By
+ 
+ # Merna Sallam
+
+---
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
