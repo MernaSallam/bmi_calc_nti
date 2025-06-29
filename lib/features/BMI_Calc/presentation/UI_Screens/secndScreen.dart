@@ -33,7 +33,6 @@ class _BMIscreenState extends State<BMIscreen> {
   @override
   void dispose() {
     namecontroller.dispose();
-    //birthDateController.dispose();
     heightcontroller.dispose();
     Weightcontroller.dispose();
     super.dispose();
