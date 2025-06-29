@@ -256,38 +256,48 @@ class _BMIscreenState extends State<BMIscreen> {
                         ),
 
                         // Height Field
-                        const Text('Your Height',
-                            style: TextStyle(
-                              fontSize: 16,
-                              fontWeight: FontWeight.bold,
-                              color: Color(0xFF505152),
-                            )),
-                        const SizedBox(
-                          height: 10,
-                        ),
-                        _buildNumberField(
-                          controller: heightcontroller,
-                          onIncrement: _incrementHeight,
-                          onDecrement: _decrementHeight,
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            const Text('Your Height',
+                                style: TextStyle(
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.bold,
+                                  color: Color(0xFF505152),
+                                )),
+                            const SizedBox(
+                              height: 10,
+                            ),
+                            _buildNumberField(
+                              controller: heightcontroller,
+                              onIncrement: _incrementHeight,
+                              onDecrement: _decrementHeight,
+                            ),
+                          ],
                         ),
                         const SizedBox(
                           height: 20,
                         ),
 
                         //Weight Field
-                        const Text('Your Weight',
-                            style: TextStyle(
-                              fontSize: 16,
-                              fontWeight: FontWeight.bold,
-                              color: Color(0xFF505152),
-                            )),
-                        const SizedBox(
-                          height: 10,
-                        ),
-                        _buildNumberField(
-                          controller: Weightcontroller,
-                          onIncrement: _incrementWeight,
-                          onDecrement: _decrementWeight,
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            const Text('Your Weight',
+                                style: TextStyle(
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.bold,
+                                  color: Color(0xFF505152),
+                                )),
+                            const SizedBox(
+                              height: 10,
+                            ),
+                            _buildNumberField(
+                              controller: Weightcontroller,
+                              onIncrement: _incrementWeight,
+                              onDecrement: _decrementWeight,
+                            ),
+                          ],
                         ),
                         const SizedBox(
                           height: 24,
