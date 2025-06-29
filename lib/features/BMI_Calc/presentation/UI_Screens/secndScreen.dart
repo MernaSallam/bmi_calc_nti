@@ -29,12 +29,7 @@ class _BMIscreenState extends State<BMIscreen> {
   final TextEditingController heightcontroller = TextEditingController();
   final TextEditingController _dateController = TextEditingController();
 
-  //String genderSelection = '';
-  /*
-    
-  TextEditingController birthDateController = TextEditingController();
-   
-  */
+ 
 
   @override
   void dispose() {
@@ -126,36 +121,7 @@ class _BMIscreenState extends State<BMIscreen> {
     }
   }
 
-  // Function to calculate BMI
-  // This function will be called when the user clicks the calculate button
-  // void _calculateBMI(dynamic heightController) {
-  //   String errorMessage = '';
-  //   // Validate the form fields
-  //   if (genderSelection.isEmpty) {
-  //     errorMessage = 'Please select your gender';
-  //   } else if (!_formKey.currentState!.validate()) {
-  //     return;
-  //   }
-
-  //   if (errorMessage.isNotEmpty) {
-  //     ScaffoldMessenger.of(context).showSnackBar(
-  //       SnackBar(
-  //         content: Text(errorMessage),
-  //         backgroundColor: Colors.red,
-  //       ),
-  //     );
-  //     return;
-  //   }
-  //   // If all validations pass, proceed to calculate BMI
-  //   String userName = namecontroller.text.trim();
-  //   context.read<BmiResultCubit>().getBmiRes(
-  //         height: heightController.text,
-  //         weight: Weightcontroller.text,
-  //         unit: 'metric',
-  //         gender: genderSelection,
-  //         name: userName.isEmpty ? 'User' : userName,
-  //       );
-  // }
+  
 
   @override
   Widget build(BuildContext context) {
@@ -329,45 +295,7 @@ class _BMIscreenState extends State<BMIscreen> {
                           height: 24,
                         ),
 
-                        // Calculate Button
-                        // ElevatedButton(
-                        //   onPressed: state is BmiResLoading
-                        //       ? null
-                        //       : () => _calculateBMI(heightcontroller),
-                        //   style: ElevatedButton.styleFrom(
-                        //     backgroundColor: state is BmiResLoading
-                        //         ? Colors.grey
-                        //         : AppColor.purpl2,
-                        //     padding: const EdgeInsets.symmetric(
-                        //         horizontal: 20, vertical: 15),
-                        //     shape: RoundedRectangleBorder(
-                        //         borderRadius: BorderRadius.circular(10)),
-                        //   ),
-                        //   child: AnimatedSwitcher(
-                        //     duration: const Duration(milliseconds: 300),
-                        //     child: state is BmiResLoading
-                        //         ? const SizedBox(
-                        //             width: 24,
-                        //             height: 24,
-                        //             child: CircularProgressIndicator(
-                        //               strokeWidth: 2,
-                        //               valueColor:
-                        //                   AlwaysStoppedAnimation<Color>(
-                        //                       AppColor.white),
-                        //             ),
-                        //           )
-                        //         : const Text(
-                        //             'Calculate BMI',
-                        //             key: ValueKey('button_text'),
-                        //             style: TextStyle(
-                        //               color: AppColor.white,
-                        //               fontSize: 18,
-                        //               fontWeight: FontWeight.w600,
-                        //             ),
-                        //           ),
-                        //   ),
-                        // ),
-
+                       // Calculate Button 
                         ElevatedButton(
                           onPressed: () {
                             if (!_formKey.currentState!.validate() ||
