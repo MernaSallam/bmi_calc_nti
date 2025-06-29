@@ -21,7 +21,6 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      //color: Color.fromARGB(255, 70, 109, 200),
       home: const FirstPage(),
     );
   }
