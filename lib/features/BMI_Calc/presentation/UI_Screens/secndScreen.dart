@@ -1,4 +1,3 @@
-//import 'package:firstflut/features/BMI_Calc/data/model/bmi_data_model.dart';
 import 'package:firstflut/features/BMI_Calc/presentation/UI_Screens/resultScreen.dart';
 import 'package:firstflut/features/BMI_Calc/presentation/components/Image_container.dart';
 import 'package:firstflut/features/BMI_Calc/presentation/components/app_image.dart';
